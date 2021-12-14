@@ -10,7 +10,7 @@ int main(void) {
     scanf("%f", &cota);
     do {
         printf("Entre com o montante em dolares\n");
-        printf("Zero finaliza o programo:\n");
+        printf("Zero finaliza o programa:\n");
         scanf("%f", &dolar);
         real = cotacao(dolar, cota);
         printf("O valor em reais de $ %.2f eh: R$ %.2f\n\n", dolar, real);
